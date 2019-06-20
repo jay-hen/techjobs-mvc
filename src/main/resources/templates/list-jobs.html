@@ -10,7 +10,9 @@
 
     <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
 
-    <div th:replace="search :: allJobs"></div>
+    <table class="/css/techjobs.css" style="width:100%">
+        <td th:replace="search :: allJobs"></td>
+    </table>
 </div>
 
 </body>
