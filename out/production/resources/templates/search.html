@@ -38,15 +38,6 @@
 
     <!-- TODO #2 - Loop over jobs map to display all job fields -->
 
-    <table class="/css/techjobs.css" style="width:100%">
-    <tr th:fragment="allJobs" th:each="map : ${jobs}">
-        <tr th:each="mapEntry : ${map}">
-            <td th:text="${mapEntry.key}"></td>
-            <td th:text="${mapEntry.value}"></td>
-        </tr>
-    </tr>
-    </table>
-
 </div>
 
 </body>
